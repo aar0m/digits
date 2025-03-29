@@ -1,6 +1,6 @@
 :root {
-  --nat-navbar-bg: rgb(50, 69, 95);
-  --nat-navbar-bg-rgb: 50, 69, 95;
+  --nat-navbar-bg: rgb(11, 21, 34);
+  --nat-navbar-bg-rgb: 11, 21, 34;
   --nat-navbar-text-color: white;
 }
 
@@ -25,7 +25,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  background: fixed center url("../../public/new-new-bg.jpg");
+  background: fixed center url("../../public/new-bg.jpg");
   background-size: cover;
 }
 .wrapper {
