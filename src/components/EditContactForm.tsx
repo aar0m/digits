@@ -58,7 +58,7 @@ const EditContactForm = ({ contact }: { contact: Contact }) => {
                       <input
                         type="text"
                         {...register('lastName')}
-                        defaultValue={contact.firstName}
+                        defaultValue={contact.lastName}
                         required
                         className={`form-control ${errors.lastName ? 'is-invalid' : ''}`}
                       />
