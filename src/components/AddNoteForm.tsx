@@ -43,7 +43,7 @@ const AddNoteForm = ({ contact }: { contact: Contact }) => {
 
   return (
     <Card>
-      <Card.Header>
+      <Card.Header className="text-center">
         Add Timestamped Note
       </Card.Header>
       <Card.Body>

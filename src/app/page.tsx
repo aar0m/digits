@@ -6,7 +6,8 @@ const Home = () => (
   <main>
     <Container id="landing-page" fluid className="py-3">
       <Container>
-        <Row className="align-middle text-center">
+        <Row className="text-center" />
+        <Row className="align-middle pt-5 text-center">
           <Col>
             <PeopleFill size={100} />
             <h1>Multiple Users</h1>
