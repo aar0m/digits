@@ -1,8 +1,8 @@
-title: nextjs-application-template
-description: A template for quickly starting Next.js application development
+title: Digits
+description: A software engineering project to list contacts.
 google_analytics:
 show_downloads: true
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 
 gems:
   - jekyll-mentions
