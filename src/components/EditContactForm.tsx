@@ -25,14 +25,13 @@ const EditContactForm = ({ contact }: { contact: Contact }) => {
   } = useForm<Contact>({
     resolver: yupResolver(EditContactSchema),
   });
-  // console.log(stuff);
 
   return (
     <Container className="py-3">
       <Row className="justify-content-center">
         <Col xs={10}>
           <Col className="text-center">
-            <h2>Edit Stuff</h2>
+            <h2>Edit Contact</h2>
           </Col>
           <Card>
             <Card.Body>

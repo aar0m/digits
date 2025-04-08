@@ -23,10 +23,12 @@ const ContactCardAdmin = ({ contact, notes }: { contact: Contact, notes: Note[] 
       <ListGroup variant="flush">
         {notes.map((note) => <NoteItem key={note.id} note={note} />)}
       </ListGroup>
-      <p className="blockquote-footer">
+    </Card.Body>
+    <Card.Footer>
+      <p className="text-muted text-end pt-2">
         {contact.owner}
       </p>
-    </Card.Body>
+    </Card.Footer>
   </Card>
 );
 
