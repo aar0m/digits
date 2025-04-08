@@ -2,8 +2,8 @@
 
 import { Card, Image, ListGroup } from 'react-bootstrap';
 import Link from 'next/link';
-import NoteItem from '@/components/NoteItem';
 import { Contact, Note } from '@prisma/client';
+import NoteItem from './NoteItem';
 import AddNoteForm from './AddNoteForm';
 
 /* Renders a single Contact. See list/page.tsx. */

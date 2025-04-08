@@ -39,7 +39,7 @@ const ListPage = async () => {
       owner,
     },
   });
-  console.log(contacts);
+  console.log(contacts, notes);
 
   return (
     <main>

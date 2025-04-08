@@ -49,15 +49,20 @@ const AddNoteForm = ({ contact }: { contact: Contact }) => {
       </Card.Header>
       <Card.Body>
         <Form onSubmit={handleSubmit(onSubmit)}>
-          <Form.Group>
-            <Form.Label>Note</Form.Label>
-            <input
-              type="text"
-              {...register('note')}
-              className={`form-control ${errors.note ? 'is-invalid' : ''}`}
-            />
-            <div className="invalid-feedback">{errors.note?.message}</div>
-          </Form.Group>
+          <Row>
+            <Col>
+              <Form.Group>
+                <Form.Label>Add Note</Form.Label>
+                <input
+                  type="text"
+                  {...register('note')}
+                  className={`form-control ${errors.note ? 'is-invalid' : ''}`}
+                />
+                <div className="invalid-feedback">{errors.note?.message}</div>
+              </Form.Group>
+            </Col>
+          </Row>
+
           <input type="hidden" {...register('owner')} value={currentUser} />
           <input type="hidden" {...register('contactId')} value={contact.id} />
           <Form.Group className="form-group">
